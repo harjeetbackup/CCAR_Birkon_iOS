@@ -15,6 +15,7 @@
 		2860E32E111B888700E27156 /* AppDelegate_iPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 2860E32C111B888700E27156 /* AppDelegate_iPad.m */; };
 		2860E32F111B888700E27156 /* MainWindow_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2860E32D111B888700E27156 /* MainWindow_iPad.xib */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		453E4DDF14583045E4B6D15E /* libPods-Birkon_Flash_Card.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B382B091C9B70181251DC1AE /* libPods-Birkon_Flash_Card.a */; };
 		4B150E4E1E07B37D003A39C4 /* 1C1-in_praise_of_a_man.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B150D961E07B37C003A39C4 /* 1C1-in_praise_of_a_man.html */; };
 		4B150E4F1E07B37D003A39C4 /* 1C2-in_praise_of_a_woman.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B150D971E07B37C003A39C4 /* 1C2-in_praise_of_a_woman.html */; };
 		4B150EF21E07B37D003A39C4 /* 0A1-Introduction.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B150E3A1E07B37D003A39C4 /* 0A1-Introduction.html */; };
@@ -420,6 +421,7 @@
 		E0BEA2F714D2930300A92664 /* ActionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0BEA2F514D2930300A92664 /* ActionViewController.xib */; };
 		E0D9E54C14C44EF200D836F0 /* CardList_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0D9E54B14C44EF200D836F0 /* CardList_iPhone.xib */; };
 		E0D9E55014C44F1900D836F0 /* CardList_iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D9E54F14C44F1900D836F0 /* CardList_iPhone.m */; };
+		E259064C2270689100E024CF /* LaunchScren.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E259064B2270689100E024CF /* LaunchScren.storyboard */; };
 		E604240D180672BB005439A0 /* 6b.png in Resources */ = {isa = PBXBuildFile; fileRef = E604240C180672BB005439A0 /* 6b.png */; };
 		E604240F180672C4005439A0 /* 6b@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E604240E180672C4005439A0 /* 6b@2x.png */; };
 		E604241218067629005439A0 /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = E604241018067629005439A0 /* 5.png */; };
@@ -814,6 +816,9 @@
 		528FF9AB1740B40400B49345 /* window_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "window_blue@2x.png"; sourceTree = "<group>"; };
 		5293BF6E174209400006C6D5 /* Launching_iphone568@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launching_iphone568@2x.png"; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Birkon_Flash_Card-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Birkon_Flash_Card-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9474B6042A49632E7A2532DD /* Pods-Birkon_Flash_Card.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birkon_Flash_Card.release.xcconfig"; path = "Target Support Files/Pods-Birkon_Flash_Card/Pods-Birkon_Flash_Card.release.xcconfig"; sourceTree = "<group>"; };
+		AEFD14879E68542A47872B9B /* Pods-Birkon_Flash_Card.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birkon_Flash_Card.debug.xcconfig"; path = "Target Support Files/Pods-Birkon_Flash_Card/Pods-Birkon_Flash_Card.debug.xcconfig"; sourceTree = "<group>"; };
+		B382B091C9B70181251DC1AE /* libPods-Birkon_Flash_Card.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Birkon_Flash_Card.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C312E64B1B56319A00A78D9C /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
 		C312E64C1B56319A00A78D9C /* RCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLabel.m; sourceTree = "<group>"; };
 		C312E64D1B56319B00A78D9C /* RCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLabel.h; sourceTree = "<group>"; };
@@ -966,6 +971,7 @@
 		E0D9E54B14C44EF200D836F0 /* CardList_iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardList_iPhone.xib; sourceTree = "<group>"; };
 		E0D9E54E14C44F1900D836F0 /* CardList_iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardList_iPhone.h; sourceTree = "<group>"; };
 		E0D9E54F14C44F1900D836F0 /* CardList_iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardList_iPhone.m; sourceTree = "<group>"; };
+		E259064B2270689100E024CF /* LaunchScren.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScren.storyboard; sourceTree = "<group>"; };
 		E604240C180672BB005439A0 /* 6b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6b.png; sourceTree = "<group>"; };
 		E604240E180672C4005439A0 /* 6b@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "6b@2x.png"; sourceTree = "<group>"; };
 		E604241018067629005439A0 /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
@@ -1066,6 +1072,7 @@
 				4EC80FB61423BC7900BFCC4D /* MessageUI.framework in Frameworks */,
 				4EC80FB81423BCCA00BFCC4D /* libsqlite3.dylib in Frameworks */,
 				4EC80FC21423BDBE00BFCC4D /* MediaPlayer.framework in Frameworks */,
+				453E4DDF14583045E4B6D15E /* libPods-Birkon_Flash_Card.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1146,6 +1153,7 @@
 				4EC80FB51423BC7900BFCC4D /* MessageUI.framework */,
 				4EC80FB71423BCCA00BFCC4D /* libsqlite3.dylib */,
 				4EC80FC11423BDBE00BFCC4D /* MediaPlayer.framework */,
+				EA75D444997F49CB6616CF87 /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -1167,6 +1175,7 @@
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
+				B382B091C9B70181251DC1AE /* libPods-Birkon_Flash_Card.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1468,6 +1477,7 @@
 				4EC80D741423B86600BFCC4D /* SearchView_iPhone.xib */,
 				4EC80D751423B86600BFCC4D /* VoiceNotesView_iPhone.xib */,
 				4EC80D761423B86600BFCC4D /* VoiceRecordingView_iPhone.xib */,
+				E259064B2270689100E024CF /* LaunchScren.storyboard */,
 			);
 			name = Xib;
 			path = ../Resource/Xib;
@@ -1795,6 +1805,15 @@
 			path = Images;
 			sourceTree = "<group>";
 		};
+		EA75D444997F49CB6616CF87 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEFD14879E68542A47872B9B /* Pods-Birkon_Flash_Card.debug.xcconfig */,
+				9474B6042A49632E7A2532DD /* Pods-Birkon_Flash_Card.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1802,6 +1821,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Birkon_Flash_Card" */;
 			buildPhases = (
+				47438DA33D9E7EE04DCD6200 /* [CP] Check Pods Manifest.lock */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
@@ -1825,7 +1845,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = MTLWNYBR52;
-						ProvisioningStyle = Manual;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -1842,6 +1862,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2056,6 +2077,7 @@
 				4B7EFD6614D7739100CE5527 /* bookmarkTop_ic.png in Resources */,
 				4B150EF21E07B37D003A39C4 /* 0A1-Introduction.html in Resources */,
 				4B7EFD6714D7739100CE5527 /* BottamBar.png in Resources */,
+				E259064C2270689100E024CF /* LaunchScren.storyboard in Resources */,
 				4B7EFD6814D7739100CE5527 /* btn_bg_green.png in Resources */,
 				4B7EFD6914D7739100CE5527 /* btn_shadow_sel.png in Resources */,
 				4B7EFD6A14D7739100CE5527 /* cancel_btn.png in Resources */,
@@ -2288,6 +2310,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		47438DA33D9E7EE04DCD6200 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Birkon_Flash_Card-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -2344,12 +2391,13 @@
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEFD14879E68542A47872B9B /* Pods-Birkon_Flash_Card.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = MTLWNYBR52;
@@ -2363,7 +2411,7 @@
 					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "Birkon_Flash_Card-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../..\"",
@@ -2371,9 +2419,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ccarnet.BirkonApp;
 				PRODUCT_NAME = Birkon_Flash_Card;
-				PROVISIONING_PROFILE = "ce9a6b52-fdc0-448d-a05e-707de002b19b";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ce9a6b52-fdc0-448d-a05e-707de002b19b";
-				PROVISIONING_PROFILE_SPECIFIER = BirkonAppDistribution;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "APIs/facebook/src/**";
 				VALID_ARCHS = "armv7 armv7s armv6 arm64";
 			};
@@ -2381,12 +2429,13 @@
 		};
 		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9474B6042A49632E7A2532DD /* Pods-Birkon_Flash_Card.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = MTLWNYBR52;
@@ -2398,7 +2447,7 @@
 					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2,
 				);
 				INFOPLIST_FILE = "Birkon_Flash_Card-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/../..\"",
@@ -2406,9 +2455,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.ccarnet.BirkonApp;
 				PRODUCT_NAME = Birkon_Flash_Card;
-				PROVISIONING_PROFILE = "ce9a6b52-fdc0-448d-a05e-707de002b19b";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "ce9a6b52-fdc0-448d-a05e-707de002b19b";
-				PROVISIONING_PROFILE_SPECIFIER = BirkonAppDistribution;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				USER_HEADER_SEARCH_PATHS = "APIs/facebook/src/**";
 				VALIDATE_PRODUCT = YES;
 				VALID_ARCHS = "armv7 armv7s armv6 arm64";
@@ -2427,7 +2476,7 @@
 					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include,
 					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "ce9a6b52-fdc0-448d-a05e-707de002b19b";
@@ -2449,7 +2498,7 @@
 					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include,
 					/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/usr/include/libxml2,
 				);
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;

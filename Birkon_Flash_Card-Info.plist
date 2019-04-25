@@ -32,6 +32,8 @@
 	<string>MainWindow_iPhone</string>
 	<key>NSMainNibFile~ipad</key>
 	<string>MainWindow_iPad</string>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScren</string>
 	<key>UIPrerenderedIcon</key>
 	<true/>
 	<key>UIRequiresFullScreen</key>

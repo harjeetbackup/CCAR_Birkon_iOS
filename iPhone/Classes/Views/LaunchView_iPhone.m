@@ -24,15 +24,12 @@
 
 - (void)viewWillAppear:(BOOL)animated
 {
-	[self.view setFrame:CGRectMake(self.view.frame.origin.x, 20, self.view.frame.size.width, self.view.frame.size.height)];
+
+    [self loadHomeScreen];
+//	[self.view setFrame:CGRectMake(self.view.frame.origin.x, 20, self.view.frame.size.width, self.view.frame.size.height)];
     
 }
 
-- (void)didReceiveMemoryWarning 
-{
-    // Releases the view if it doesn't have a superview.
-    [super didReceiveMemoryWarning];
-}
 
 -(void) viewDidLoad
 {
@@ -76,35 +73,38 @@
 	DeckViewController_iPhone* controller = [[DeckViewController_iPhone alloc] initWithNibName:@"DeckViewController_iPhone" bundle:nil];	
 	
 	controller.cardDecks = deckList;
-	[self.navigationController pushViewController:controller animated:YES];
+	[self.navigationController pushViewController:controller animated:NO];
      self.navigationItem.hidesBackButton=YES;
 	[deckList release];
 	[controller release];
 }
 
-- (IBAction)openHomeView
-{
-    
+- (void)viewDidAppear:(BOOL)animated {
     if([[[Utils getValueForVar:kAudioOnTapToStart] lowercaseString] isEqualToString:@"yes"])
     {
         NSError* err = nil;
-        
+
         NSString* audioFileName = [[NSBundle mainBundle] pathForResource:[Utils getValueForVar:kStartSoundFile] ofType:nil inDirectory:nil];
-        
+
         if (audioFileName == nil)
             return;
-        
+
         //audioFileName = [[NSBundle mainBundle] pathForResource:audioFileName ofType:nil inDirectory:nil];
-		
+
         AVAudioPlayer* player = [[AVAudioPlayer alloc] initWithContentsOfURL:[NSURL fileURLWithPath:audioFileName] error:&err];
         //player.delegate=self;
         [player play];
     }
-	UIActivityIndicatorView* indicator = [[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray] autorelease];
-	[indicator setFrame:CGRectMake(140, 265, 40, 40)];
-	[indicator startAnimating];
-	[_imgButton addSubview:indicator];
-	[self loadHomeScreen];
+    UIActivityIndicatorView* indicator = [[[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleGray] autorelease];
+    [indicator setFrame:CGRectMake(140, 265, 40, 40)];
+    [indicator startAnimating];
+    [_imgButton addSubview:indicator];
+}
+
+- (IBAction)openHomeView
+{
+    
+
 }
 
 @end
