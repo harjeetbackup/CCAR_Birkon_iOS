@@ -35,26 +35,12 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
                     <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                 </imageView>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" sectionIndexMinimumDisplayRowCount="2" rowHeight="43" sectionHeaderHeight="10" sectionFooterHeight="5" translatesAutoresizingMaskIntoConstraints="NO" id="10">
-                    <rect key="frame" x="0.0" y="99.5" width="320" height="336.5"/>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <color key="sectionIndexColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
-                    <label key="tableFooterView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2015 Central Conference of American Rabbis. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uqa-qA-bfK">
-                        <rect key="frame" x="0.0" y="881.5" width="320" height="21"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <fontDescription key="fontDescription" type="system" pointSize="8.5"/>
-                        <color key="textColor" red="0.89591961600000003" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <nil key="highlightedColor"/>
-                    </label>
-                    <connections>
-                        <outlet property="dataSource" destination="-1" id="15"/>
-                        <outlet property="delegate" destination="-1" id="16"/>
-                    </connections>
-                </tableView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="43">
-                    <rect key="frame" x="0.0" y="32" width="320" height="67.5"/>
+                    <rect key="frame" x="0.0" y="44" width="320" height="67.5"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="67.5" id="O0l-wo-gQR"/>
+                    </constraints>
                 </imageView>
                 <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" barStyle="black" translatesAutoresizingMaskIntoConstraints="NO" id="17" customClass="CustomToolBar">
                     <rect key="frame" x="0.0" y="436" width="320" height="44"/>
@@ -101,13 +87,30 @@
                     <color key="tintColor" red="0.7920912504196167" green="0.94173622131347656" blue="0.99957525730133057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <color key="barTintColor" red="0.7920912504196167" green="0.94173622131347656" blue="0.99957525730133057" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </toolbar>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="grouped" sectionIndexMinimumDisplayRowCount="2" rowHeight="43" sectionHeaderHeight="-1" sectionFooterHeight="5" translatesAutoresizingMaskIntoConstraints="NO" id="10">
+                    <rect key="frame" x="0.0" y="111.5" width="320" height="324.5"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="sectionIndexColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                    <label key="tableFooterView" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright © 2015 Central Conference of American Rabbis. All rights reserved." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="uqa-qA-bfK">
+                        <rect key="frame" x="0.0" y="881.5" width="320" height="21"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="8.5"/>
+                        <color key="textColor" red="0.89591961600000003" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="15"/>
+                        <outlet property="delegate" destination="-1" id="16"/>
+                    </connections>
+                </tableView>
             </subviews>
             <constraints>
                 <constraint firstItem="14" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="8kE-l9-Vmn"/>
                 <constraint firstItem="17" firstAttribute="top" secondItem="10" secondAttribute="bottom" id="9Zv-Jh-bFd"/>
                 <constraint firstItem="17" firstAttribute="top" secondItem="14" secondAttribute="bottom" id="CEA-En-0yt"/>
                 <constraint firstItem="10" firstAttribute="trailing" secondItem="EYo-3t-Pm3" secondAttribute="trailing" id="LuR-G5-502"/>
-                <constraint firstItem="43" firstAttribute="top" secondItem="6" secondAttribute="top" constant="32" id="OC1-JW-ztY"/>
+                <constraint firstItem="43" firstAttribute="top" secondItem="EYo-3t-Pm3" secondAttribute="top" id="OC1-JW-ztY"/>
                 <constraint firstAttribute="bottom" secondItem="17" secondAttribute="bottom" id="RXv-30-Vsq"/>
                 <constraint firstItem="10" firstAttribute="top" secondItem="43" secondAttribute="bottom" id="Zla-qM-5gB"/>
                 <constraint firstItem="14" firstAttribute="top" secondItem="6" secondAttribute="top" id="cwN-tw-N0S"/>
@@ -121,7 +124,7 @@
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="EYo-3t-Pm3"/>
-            <point key="canvasLocation" x="137.68115942028987" y="100.44642857142857"/>
+            <point key="canvasLocation" x="-490" y="102"/>
         </view>
     </objects>
     <resources>

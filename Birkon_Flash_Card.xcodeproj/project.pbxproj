@@ -1465,8 +1465,8 @@
 		4EC80D6A1423B86600BFCC4D /* Xib */ = {
 			isa = PBXGroup;
 			children = (
-				E0D9E54B14C44EF200D836F0 /* CardList_iPhone.xib */,
 				4EC80D6C1423B86600BFCC4D /* CommentsView_iPhone.xib */,
+				E0D9E54B14C44EF200D836F0 /* CardList_iPhone.xib */,
 				4EC80D6B1423B86600BFCC4D /* CardDetails_iPhone.xib */,
 				4EC80D6D1423B86600BFCC4D /* DeckViewController_iPhone.xib */,
 				4EC80D6E1423B86600BFCC4D /* IndexView_iPhone.xib */,
