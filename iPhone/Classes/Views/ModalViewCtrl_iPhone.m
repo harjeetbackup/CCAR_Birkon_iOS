@@ -91,13 +91,13 @@
     if ( SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
     {
     [button setImage:[UIImage imageNamed:@"backNew_1.png"] forState:UIControlStateNormal];
-        button.frame = CGRectMake(8.0, 5.0, 70.0, 29.0);
+        button.frame = CGRectMake(0.0, 5.0, 70.0, 29.0);
         //button.contentMode=UIViewContentModeScaleAspectFit;
     }
     else
     {
         [button setImage:[UIImage imageNamed:@"back_btn.png"] forState:UIControlStateNormal];
-        button.frame = CGRectMake(5.0, 5.0, 50.0, 30.0);
+        button.frame = CGRectMake(-5.0, 5.0, 50.0, 30.0);
         button.contentMode=UIViewContentModeScaleAspectFit;
     }
    // button.frame = CGRectMake(8.0, 5.0, 91.0, 38.0);
