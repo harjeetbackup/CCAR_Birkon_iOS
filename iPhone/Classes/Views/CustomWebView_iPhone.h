@@ -7,11 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import  <WebKit/WebKit.h>
 
-@interface CustomWebView_iPhone : UIWebView <UIWebViewDelegate>
+@interface CustomWebView_iPhone : WKWebView  <WKNavigationDelegate>
 {
 	UIActivityIndicatorView* act;
 	NSString* searchText;
+    WKWebViewConfiguration* configuration;
 }
 
 @property (nonatomic,retain) NSString* searchText;
