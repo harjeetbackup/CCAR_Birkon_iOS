@@ -1,8 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <deployment defaultVersion="1072" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CardDetails_iPhone">
@@ -18,35 +23,50 @@
             <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="9" customClass="CustomToolBar">
-                    <rect key="frame" x="0.0" y="436" width="320" height="44"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9" customClass="CustomToolBar">
+                    <rect key="frame" x="0.0" y="402" width="320" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="xap-eD-pvw"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="X6N-pd-qmx"/>
                     <items>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="82"/>
                         <barButtonItem style="plain" id="cgI-Rz-R3Y">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="5WR-ZF-Cbe">
-                                <rect key="frame" x="123" y="6" width="73" height="33"/>
+                                <rect key="frame" x="123.5" y="7" width="73" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="90"/>
                     </items>
-                    <color key="tintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                 </toolbar>
-                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" bounces="NO" scrollEnabled="NO" pagingEnabled="YES" id="91">
-                    <rect key="frame" x="0.0" y="0.0" width="320" height="436"/>
-                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="calibratedRGB"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" bounces="NO" scrollEnabled="NO" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="402"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     <connections>
                         <outlet property="delegate" destination="-1" id="92"/>
                     </connections>
                 </scrollView>
             </subviews>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="9" firstAttribute="trailing" secondItem="yLE-9J-eSJ" secondAttribute="trailing" id="1eT-3Y-HTm"/>
+                <constraint firstItem="9" firstAttribute="leading" secondItem="yLE-9J-eSJ" secondAttribute="leading" id="2F1-P0-EIE"/>
+                <constraint firstItem="91" firstAttribute="leading" secondItem="yLE-9J-eSJ" secondAttribute="leading" id="4iJ-2D-JNx"/>
+                <constraint firstItem="9" firstAttribute="top" secondItem="91" secondAttribute="bottom" id="P25-ak-qSB"/>
+                <constraint firstItem="91" firstAttribute="top" secondItem="1" secondAttribute="top" id="S40-1z-FYP"/>
+                <constraint firstItem="yLE-9J-eSJ" firstAttribute="bottom" secondItem="9" secondAttribute="bottom" id="WgJ-vc-RNg"/>
+                <constraint firstItem="91" firstAttribute="trailing" secondItem="yLE-9J-eSJ" secondAttribute="trailing" id="XjG-G6-gSj"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="yLE-9J-eSJ"/>
+            <point key="canvasLocation" x="47.826086956521742" y="35.491071428571423"/>
         </view>
     </objects>
 </document>
