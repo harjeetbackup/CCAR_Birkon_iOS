@@ -53,6 +53,7 @@
 #define kStartSoundFile                 @"StartSoundFile"
 #define kIntroDeckColor                 @"IntroDeckColor"
 #define kisAppRating                    @"isAppRating"
+#define kBookMarkScreenTitle            @"Bookmarked Blessings"
 
 
 #define SELECT_DECK_CARD_QUERY	[NSString stringWithFormat: @"%@ %@ %@ %@ %@ %@",				\

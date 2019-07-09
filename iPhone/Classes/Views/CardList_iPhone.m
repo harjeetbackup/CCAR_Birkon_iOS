@@ -57,6 +57,12 @@
 	}
     
 }
+-(void)viewWillAppear:(BOOL)animated
+{
+    if ([lblDeckName.text  isEqual: kBookMarkScreenTitle]) {
+        [self showBookmarkCards];
+    }
+}
 
 /*
  // Override to allow orientations other than the default portrait orientation.
@@ -238,7 +244,7 @@
         lblDeckName.textColor = [UIColor blackColor];
     }
     
-	lblDeckName.text = @"Bookmarked Blessings";
+	lblDeckName.text = kBookMarkScreenTitle;
 	self.navigationItem.titleView = lblDeckName;
 	[lblDeckName release];
 	
@@ -261,7 +267,7 @@
 	{
 		[Utils randomizeArray:arrCards];
 	}
-	
+    [self.tblCardNames reloadData];
 }
 
 - (void)popView{

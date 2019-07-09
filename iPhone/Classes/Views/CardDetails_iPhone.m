@@ -77,7 +77,7 @@
         buttonBookark.frame = CGRectMake(120.0, 5.0, 65.0, 35.0);
     }
     
-   // buttonBookark.frame = CGRectMake(160.0, 5.0, 22.0, 38.0);
+    //buttonBookark.frame = CGRectMake(150.0, 5.0, 30.0, 38.0);
     buttonBookark.contentMode=UIViewContentModeScaleAspectFit;
     buttonBookark.hidden = NO;
     //[self.view addSubview: button];
@@ -628,7 +628,7 @@
 	
 }
 
-/*- (IBAction)bookMarked
+- (IBAction)bookMarked
 {
 	FlashCard* card = [_arrayOfCards objectAtIndex:_selectedCardIndex];
 	card.isBookMarked = !card.isBookMarked;
@@ -643,7 +643,8 @@
 			--_totalCard;
             if(_arrayOfCards.count==_selectedCardIndex)
 			_selectedCardIndex = ((_selectedCardIndex - 1) < 0) ? 0 : (_selectedCardIndex - 1);
-			[_scrlView setContentSize:CGSizeMake(320 * [_arrayOfCards count], _scrlView.frame.size.height)];
+             [_scrlView setContentSize:CGSizeMake(self.view.bounds.size.width * [_arrayOfCards count], _scrlView.frame.size.height)];
+			//[_scrlView setContentSize:CGSizeMake(320 * [_arrayOfCards count], _scrlView.frame.size.height)];
             
 			[self updateFlashDetails];
 			[self updateFlashCard];
@@ -661,7 +662,7 @@
 		}
 
 	}
-}*/
+}
 
 - (IBAction)cardKnownUnKnown
 {
@@ -681,21 +682,21 @@ if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
 {
        
     
-	if(card.isBookMarked)
-	{
-		_favorite.hidden = NO;
-		favImg.hidden = NO;
-		[_toggleFavButton setImage:[UIImage imageNamed:@"notBookmarkSeven.png"] forState:UIControlStateNormal];
+    if(card.isBookMarked)
+    {
+        _favorite.hidden = NO;
+        favImg.hidden = NO;
+        [_toggleFavButton setImage:[UIImage imageNamed:@"notBookmarkSeven.png"] forState:UIControlStateNormal];
         //[_toggleFavButton setFrame:CGRectMake(140, 0, 30, 38)];
-	}
-	else
-	{
-		_favorite.hidden = YES;
-		favImg.hidden = YES;
-		[_toggleFavButton setImage:[UIImage imageNamed:@"bookmark_7.png"] forState:UIControlStateNormal];
+    }
+    else
+    {
+        _favorite.hidden = YES;
+        favImg.hidden = YES;
+        [_toggleFavButton setImage:[UIImage imageNamed:@"bookmark_7.png"] forState:UIControlStateNormal];
           // [_toggleFavButton setFrame:CGRectMake(140, 0, 30, 38)];
-	}
-	
+    }
+
 	if(card.isKnown)
 	{
 		knowDontKnowImg.hidden = NO;
