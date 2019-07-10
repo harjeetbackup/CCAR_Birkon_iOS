@@ -235,7 +235,7 @@ Card* card;
 	tableRect.origin.x = 0;
     if (SYSTEM_VERSION_GREATER_THAN_OR_EQUAL_TO(@"7.0"))
     {
-        tableRect.origin.y = 44;
+        tableRect.origin.y = 40;
     }
 	tableView.frame = tableRect;
    

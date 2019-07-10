@@ -59,6 +59,7 @@
 }
 -(void)viewWillAppear:(BOOL)animated
 {
+    [super viewWillAppear:animated];
     if ([lblDeckName.text  isEqual: kBookMarkScreenTitle]) {
         [self showBookmarkCards];
     }
