@@ -45,6 +45,10 @@
     [super viewDidLoad];
     self.tblCardNames.backgroundColor=[UIColor clearColor];
     self.backgroundImage.image=[UIImage imageNamed:backgroundImageName];
+    self.navigationController.navigationBarHidden = NO;
+    self.navigationController.navigationBar.translucent = NO;
+    self.navigationController.navigationBar.backgroundColor = [UIColor whiteColor];
+    self.navigationController.navigationBar.shadowImage = [UIImage new];
    // UIView *view = [[[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 100)] autorelease];
    // view.backgroundColor = [UIColor whiteColor];
     
