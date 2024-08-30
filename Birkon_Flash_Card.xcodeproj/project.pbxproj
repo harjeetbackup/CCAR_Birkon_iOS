@@ -280,6 +280,7 @@
 		528FF9B11740B40400B49345 /* window_blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 528FF9AA1740B40400B49345 /* window_blue.png */; };
 		528FF9B21740B40400B49345 /* window_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 528FF9AB1740B40400B49345 /* window_blue@2x.png */; };
 		5293BF6F174209400006C6D5 /* Launching_iphone568@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5293BF6E174209400006C6D5 /* Launching_iphone568@2x.png */; };
+		B9627AF72C482D7F001B760F /* Kakatuv_Replacement_Yoni_sung.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B9627AF62C482D7F001B760F /* Kakatuv_Replacement_Yoni_sung.mp3 */; };
 		C312E64F1B56319B00A78D9C /* StringHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C312E64B1B56319A00A78D9C /* StringHelper.m */; };
 		C312E6501B56319B00A78D9C /* RCLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C312E64C1B56319A00A78D9C /* RCLabel.m */; };
 		C33C492E1BC5009800D5542D /* blue-menu-background_iPhone.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C33C492A1BC5009800D5542D /* blue-menu-background_iPhone.jpg */; };
@@ -820,6 +821,7 @@
 		9474B6042A49632E7A2532DD /* Pods-Birkon_Flash_Card.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birkon_Flash_Card.release.xcconfig"; path = "Target Support Files/Pods-Birkon_Flash_Card/Pods-Birkon_Flash_Card.release.xcconfig"; sourceTree = "<group>"; };
 		AEFD14879E68542A47872B9B /* Pods-Birkon_Flash_Card.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Birkon_Flash_Card.debug.xcconfig"; path = "Target Support Files/Pods-Birkon_Flash_Card/Pods-Birkon_Flash_Card.debug.xcconfig"; sourceTree = "<group>"; };
 		B382B091C9B70181251DC1AE /* libPods-Birkon_Flash_Card.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Birkon_Flash_Card.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9627AF62C482D7F001B760F /* Kakatuv_Replacement_Yoni_sung.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Kakatuv_Replacement_Yoni_sung.mp3; sourceTree = "<group>"; };
 		C312E64B1B56319A00A78D9C /* StringHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringHelper.m; sourceTree = "<group>"; };
 		C312E64C1B56319A00A78D9C /* RCLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCLabel.m; sourceTree = "<group>"; };
 		C312E64D1B56319B00A78D9C /* RCLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCLabel.h; sourceTree = "<group>"; };
@@ -1301,6 +1303,7 @@
 				4B66608C1E1259A600C1D5C6 /* 3b1g.mp3 */,
 				4B66608D1E1259A600C1D5C6 /* 3b1h.mp3 */,
 				4B66608E1E1259A600C1D5C6 /* 3b1i.mp3 */,
+				B9627AF62C482D7F001B760F /* Kakatuv_Replacement_Yoni_sung.mp3 */,
 				4B66608F1E1259A600C1D5C6 /* 3b1j.mp3 */,
 				4B6660901E1259A600C1D5C6 /* 3b1k.mp3 */,
 				4B6660911E1259A600C1D5C6 /* 3b1l.mp3 */,
@@ -1937,6 +1940,7 @@
 				C3E5FC8D1B55089800B2127B /* 4B14-heiveinu.html in Resources */,
 				C33C492E1BC5009800D5542D /* blue-menu-background_iPhone.jpg in Resources */,
 				4B6661571E1259A700C1D5C6 /* 3b3.mp3 in Resources */,
+				B9627AF72C482D7F001B760F /* Kakatuv_Replacement_Yoni_sung.mp3 in Resources */,
 				4B6661511E1259A700C1D5C6 /* 3b2p.mp3 in Resources */,
 				4B66614E1E1259A700C1D5C6 /* 3b2m.mp3 in Resources */,
 				E64FADB217CC9DDB006BDF68 /* backNew_1@2x.png in Resources */,
@@ -2403,6 +2407,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = MTLWNYBR52;
 				ENABLE_BITCODE = NO;
@@ -2422,6 +2427,7 @@
 					"\"$(SRCROOT)/../..\"",
 					"\"$(SRCROOT)/APIs\"",
 				);
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.ccarnet.BirkonApp;
 				PRODUCT_NAME = Birkon_Flash_Card;
 				PROVISIONING_PROFILE = "";
@@ -2442,6 +2448,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0.1;
 				DEPLOYMENT_LOCATION = NO;
 				DEVELOPMENT_TEAM = MTLWNYBR52;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -2458,6 +2465,7 @@
 					"\"$(SRCROOT)/../..\"",
 					"\"$(SRCROOT)/APIs\"",
 				);
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = org.ccarnet.BirkonApp;
 				PRODUCT_NAME = Birkon_Flash_Card;
 				PROVISIONING_PROFILE = "";
